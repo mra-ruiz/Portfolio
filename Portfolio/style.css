@@ -1,0 +1,52 @@
+@import 'https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Slab|Lobster|Open+Sans|Pacifico';
+
+body {
+	background-color: rgb(203,197,234)
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+    color: (24,54,66);
+	font-size: 70px;
+    text-align: center;
+}
+
+h2 {
+	font-family: 'Amatic SC', cursive;
+	color: (24,54,66);
+	font-size: 40px;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Lobster', cursive;
+	color: (24,54,66);
+	font-size: 18px;
+	text-align: center;
+}
+
+p {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+	color: rgb(49,61,90);
+	text-align: center;
+}
+
+a:link {
+	font-family: 'Josefin Slab', serif;
+    color: rgb(115, 98, 138);
+	font-size: 20px;
+    background-color: transparent;
+    text-decoration: none;
+	text-align: center;
+}
+a:hover {
+    color: rgb(234,234,234);
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(234,234,234);
+    background-color: transparent;
+    text-decoration: none;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About Me</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="dropdown.css">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<meta charset="utf-8">
+		<!-- <style>
+		  html, body {
+			height: 90%;
+			margin:0 ;
+			padding: 0;
+			}
+		</style> -->
+	</head>	 
+		<script>
+			function sayHi(){
+				alert("Hello! Welcome to my website:)");
+				}
+		</script>
+		<h2><div id = "About me"> About me</h2> 
+			<ul class ="menu cf">
+				<li><a href="version 4.html">Scratch</a></li>		
+				<li><a href="version 4.html">Python</a></li>
+				<li><a href="version 4.html">Arduino</a></li>
+				<li><a href="version 4.html">HTML</a></li>
+				<li><a href="about_me.html">About Me</a></li> 
+		</div>
+		<style>
+    	   #map {
+        	width: 100%;
+        	height: 500px;
+      		}
+    	</style>
+	<p style="color:rgb(203,197,234)">stuff that won't show up because of the color</p>
+	<body>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            center: {lat: 25.711146251317334, lng: -80.22016167640686},
+            zoom: 13
+        });
+		var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+      }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+    </script>
+  </body>
+</html> 
